@@ -6,7 +6,4 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://eureka-user:eureka-pass@localhost:8777/eureka/
-  instance:
-    hostname: financial-services-station.herokuapp.com
-    non-secure-port: 80
-    prefer-ip-address: false
+
