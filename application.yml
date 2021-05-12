@@ -3,10 +3,10 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://eureka-user:eureka-pass@localhost:8777/eureka/
+      defaultZone: http://localhost:8778/eureka/
 
 
 
 #     region : default
-
+#eureka-user:eureka-pass@
 #     registryFetchIntervalSeconds : 5
