@@ -7,4 +7,4 @@ eureka:
     service-url:
       defaultZone: http://eureka-user:eureka-pass@localhost:8777/eureka/
   instance:
-    hostname: localhost
+    hostname: 
