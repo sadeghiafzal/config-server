@@ -1,11 +1,20 @@
-eureka:
+# eureka:
  
-  client:
-    region : default
-    registryFetchIntervalSeconds : 5
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: http://eureka-user:eureka-pass@localhost:8777/eureka/
+#   client:
+#     region : default
+#     registryFetchIntervalSeconds : 5
+#     register-with-eureka: true
+#     fetch-registry: true
+#     service-url:
+#       defaultZone: http://eureka-user:eureka-pass@localhost:8777/eureka/
+
+
+
+eureka:
+  instance:
+    metadataMap:
+      user: eureka-user
+      password: eureka-pass
+      configPath: http://localhost:8777/eureka/
   
 
